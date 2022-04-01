@@ -41,5 +41,4 @@ public class PessoaFisica extends PessoaHeranca{
 		this.profissao = profissao;
 	}
 	
-	
 }
