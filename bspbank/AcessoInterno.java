@@ -2,11 +2,11 @@ package bspbank;
 
 public interface AcessoInterno {
 	
-	//classe que sÛ possui assinatura de mÈtodos, eles n„o possuem comportamentos
+	//classe que s√≥ possui assinatura de m√©todos
 	
 	/**
-	 * @param String usuario => pode-se informar um usu·rio v·lido
-	 * @param String senha => pode-se informar uma senha com atÈ 255 caracteres alfanumÈricos
+	 * @param String usuario => pode-se informar um usu√°rio v√°lido
+	 * @param String senha => pode-se informar uma senha com at√© 255 caracteres alfanum√©ricos
 	 * @return retorna verdadeiro quando a senha estiver correta
 	 **/
 	public boolean autenticarSistema(String usuario, String senha);
